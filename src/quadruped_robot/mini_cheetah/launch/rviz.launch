@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+    <param name="robot_description" command="xacro '$(find quadruped_robot)/mini_cheetah/mini_cheetah_description/mini_cheetah.urdf'"/>
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+    <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui"/>
+
+
+
+
+
+</launch>
