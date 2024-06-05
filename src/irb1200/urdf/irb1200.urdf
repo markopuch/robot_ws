@@ -1,0 +1,253 @@
+<?xml version="1.0" ?>
+<robot name="irb1200" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0004759674741186417 0.02363485068790292 0.11219148932498035" rpy="0 0 0"/>
+    <mass value="83.56071102944446"/>
+    <inertia ixx="0.781146" iyy="0.579256" izz="0.698148" ixy="-0.004319" iyz="0.00506" ixz="-0.001279"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Link1_rev0_1">
+  <inertial>
+    <origin xyz="0.0004383806530665506 0.00326493021677348 0.10230298786125677" rpy="0 0 0"/>
+    <mass value="47.61495963534385"/>
+    <inertia ixx="0.37735" iyy="0.595233" izz="0.433856" ixy="0.000186" iyz="0.004407" ixz="0.000755"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.219" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link1_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.219" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link1_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Link2_rev0_1">
+  <inertial>
+    <origin xyz="0.05704146777769828 0.012331972875891169 0.21847788526315937" rpy="0 0 0"/>
+    <mass value="62.59364394380273"/>
+    <inertia ixx="1.921119" iyy="2.095675" izz="0.339093" ixy="-0.000462" iyz="0.008496" ixz="0.002671"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0615 -0.0 -0.3991" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link2_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="0.0615 -0.0 -0.3991" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link2_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Link3_rev0_1">
+  <inertial>
+    <origin xyz="-0.06379555030759612 -0.09811898038030374 0.03502911684883658" rpy="0 0 0"/>
+    <mass value="50.25181750727747"/>
+    <inertia ixx="0.614584" iyy="0.159822" izz="0.56594" ixy="-0.000967" iyz="0.040908" ixz="0.000343"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0607 -0.0 -0.8471" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link3_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="-0.0607 -0.0 -0.8471" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link3_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Link4_rev0_1">
+  <inertial>
+    <origin xyz="0.001625537251923985 -0.0937540320207727 0.001095972007822188" rpy="0 0 0"/>
+    <mass value="14.103815294617599"/>
+    <inertia ixx="0.057707" iyy="0.029402" izz="0.061948" ixy="0.001376" iyz="-0.000481" ixz="-1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0033 0.2885 -0.888589" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link4_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="0.0033 0.2885 -0.888589" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link4_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Link5_rev0_1">
+  <inertial>
+    <origin xyz="-0.028822154297697893 -0.020848353265404296 -5.43628715483635e-05" rpy="0 0 0"/>
+    <mass value="4.542291056700567"/>
+    <inertia ixx="0.008926" iyy="0.003477" izz="0.007834" ixy="-0.000177" iyz="1.2e-05" ixz="-4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.022199 0.474 -0.888592" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link5_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="-0.022199 0.474 -0.888592" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link5_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Link6_rev0_1">
+  <inertial>
+    <origin xyz="-4.944434111361223e-07 -0.0028457139621871352 -0.00036694072263832034" rpy="0 0 0"/>
+    <mass value="0.03668180966446828"/>
+    <inertia ixx="5e-06" iyy="1e-05" izz="5e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.009051 0.5665 -0.888594" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link6_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="0.009051 0.5665 -0.888594" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/Link6_rev0_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="tubo_Prismatico_v4_1">
+  <inertial>
+    <origin xyz="-4.944404100211408e-07 -0.030291464452243733 4.067732127799317e-07" rpy="0 0 0"/>
+    <mass value="0.28192289619363314"/>
+    <inertia ixx="0.000187" iyy="0.000103" izz="0.000187" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.009051 0.572 -0.888594" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/tubo_Prismatico_v4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="0.009051 0.572 -0.888594" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/tubo_Prismatico_v4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="ventosa_prismatico_1">
+  <inertial>
+    <origin xyz="-4.944385040943355e-07 -0.044914102030246816 7.328922135840799e-07" rpy="0 0 0"/>
+    <mass value="0.6744811347638636"/>
+    <inertia ixx="0.000594" iyy="0.000116" izz="0.000594" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.009051 0.577 -0.888594" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/ventosa_prismatico_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    
+  </visual>
+  <collision>
+    <origin xyz="0.009051 0.577 -0.888594" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://irb1200/meshes/ventosa_prismatico_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 1" type="revolute">
+  <origin xyz="0.0 0.0 0.219" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="Link1_rev0_1"/>
+  <axis xyz="-0.0 0.0 1.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 2" type="revolute">
+  <origin xyz="-0.0615 0.0 0.1801" rpy="0 0 0"/>
+  <parent link="Link1_rev0_1"/>
+  <child link="Link2_rev0_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 3" type="revolute">
+  <origin xyz="0.1222 0.0 0.448" rpy="0 0 0"/>
+  <parent link="Link2_rev0_1"/>
+  <child link="Link3_rev0_1"/>
+  <axis xyz="-1.0 -0.0 -0.0"/>
+  <limit upper="1.047198" lower="-1.047198" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 4" type="revolute">
+  <origin xyz="-0.064 -0.2885 0.041489" rpy="0 0 0"/>
+  <parent link="Link3_rev0_1"/>
+  <child link="Link4_rev0_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 5" type="revolute">
+  <origin xyz="0.025499 -0.1855 3e-06" rpy="0 0 0"/>
+  <parent link="Link4_rev0_1"/>
+  <child link="Link5_rev0_1"/>
+  <axis xyz="-1.0 -0.0 -0.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute 10" type="continuous">
+  <origin xyz="-0.03125 -0.0925 2e-06" rpy="0 0 0"/>
+  <parent link="Link5_rev0_1"/>
+  <child link="Link6_rev0_1"/>
+  <axis xyz="0.0 -1.0 1.7e-05"/>
+</joint>
+
+<joint name="Rigid 11" type="fixed">
+  <origin xyz="0.0 -0.0055 0.0" rpy="0 0 0"/>
+  <parent link="Link6_rev0_1"/>
+  <child link="tubo_Prismatico_v4_1"/>
+</joint>
+
+<joint name="Slider 12" type="prismatic">
+  <origin xyz="0.0 -0.005 0.0" rpy="0 0 0"/>
+  <parent link="tubo_Prismatico_v4_1"/>
+  <child link="ventosa_prismatico_1"/>
+  <axis xyz="0.0 -1.0 1.7e-05"/>
+  <limit upper="0.062" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+</robot>
